@@ -142,7 +142,6 @@ nav img {
 
 .main-header h1 {
 	font-size: 60px;
-	font-family: 'Open-Sans', sans-serif;
 	text-align: center;
 	color: rgb(2, 30, 56);
 	background-color: rgba(255, 255, 255, 0.8);
@@ -389,14 +388,25 @@ footer {
        margin-right: 0;
     }
 
+    .home-header {
+        background: none;
+        padding-bottom: 70px
+    }
+
+    .main-header {
+        width: 100%;
+    }
+
     .main-header h1 {
-        font-size: 60px;
-        padding: 20px;
+        font-size: 70px;
+        padding: 20px 20px 0;
+        background: none;
+        color: white;
     }
     
     /* main header button */
     .main-header button {
-        width: 50%;
+        width: 40%;
         transition: 2s;
     }
 
