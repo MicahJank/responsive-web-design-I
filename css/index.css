@@ -140,7 +140,7 @@ nav img {
 	margin: auto;
 }
 
-.home-header h1 {
+.main-header h1 {
 	font-size: 60px;
 	font-family: 'Open-Sans', sans-serif;
 	text-align: center;
@@ -155,7 +155,7 @@ nav img {
 	background-color: rgb(255, 255, 255);
 	border: 1px solid rgb(97, 97, 97);
 	color: rgb(27, 27, 27);
-	padding: 7px 40px;
+	padding: 2% 3%;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
@@ -356,7 +356,18 @@ footer {
 @media(max-width: 800px) {
 	body {
 		width: 100%;
-	}
+    }
+
+    .main-header h1 {
+        font-size: 60px;
+        padding: 20px;
+    }
+    
+    /* main header button */
+    .main-header button {
+        width: 50%;
+        transition: 2s;
+    }
 
 	/* service page header section */
 	.services-header h1, .services-header p {
@@ -396,5 +407,5 @@ footer {
 
 
 @media(max-width: 500px) {
-    
+
 }
