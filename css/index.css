@@ -353,9 +353,40 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* Media Query Ipad */
 @media(max-width: 800px) {
 	body {
 		width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .home-link {
+        order: -1;
+        display: block;
+        width: 100%;
+       text-align: center;
+       margin: 20px 0 35px;
+    }
+
+    .home-link img {
+        margin: 0;
+    }
+
+    .nav-link {
+        margin: 0 11% 0 0;
+    }
+
+    .nav-link:first-child {
+        margin-left: 1%;
+    }
+
+    .nav-link:nth-child(6) {
+       margin-right: 0;
     }
 
     .main-header h1 {
@@ -406,6 +437,7 @@ footer {
 }
 
 
+/* Media Query Iphone */
 @media(max-width: 500px) {
 
 }
